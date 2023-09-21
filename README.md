@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# YouTube Comment Emotion Analyzer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+YouTube Comment Emotion Analyzer is a powerful dashboard that allows users to analyze the emotions expressed in comments on YouTube videos. With this tool, users can gain insights into the emotional responses of viewers and identify which emotions are most prevalent in the comments section. The dashboard provides two levels of emotion classification, giving users a comprehensive understanding of the sentiment surrounding a video.
 
-In the project directory, you can run:
+<img width="1440" alt="Screenshot 2023-09-21 at 19 35 31" src="https://github.com/sonodary/Youtube-sentiment-analysis/assets/95659128/dedc6774-ce03-408f-b893-3532f6b51651">
 
-### `npm start`
+### Emotion Classification
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **8 Emotions Classification**:
+   - Joy
+   - Surprise
+   - Disgust
+   - Fear
+   - Anticipation
+   - Sadness
+   - Trust
+   - Neutral
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **3 Emotions Classification**:
+   - Neutral
+   - Positive
+   - Negative
 
-### `npm test`
+### Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Word Cloud Visualization**: Visualize the most frequently occurring words in comments to get a sense of the prevailing sentiments.
 
-### `npm run build`
+- **Pie Charts**: Understand the distribution of emotions among comments through interactive pie charts.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Bert-based Neural Network Model**: Analyze the sentiment of each comment using a state-of-the-art neural network model for natural language processing.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Language Limitation**: Currently, the tool is applicable only to Japanese comments.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1. Enter the YouTube video URL for the video you want to analyze.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Click the red button next to the search bar to initiate the analysis process.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Explore the dashboard to gain insights into the emotions expressed in the comments section.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-## Learn More
+1. Fork the repository.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Create a new branch for your feature or bug fix.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Make your changes and commit them to your branch.
 
-### Code Splitting
+4. Create a pull request to submit your changes for review.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgments
 
-### Making a Progressive Web App
+- Special thanks to the creators of the Bert-based Neural Network Model used for sentiment analysis.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contact
 
-### Advanced Configuration
+If you have any questions or suggestions, please feel free to reach out to the project maintainer:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Name: Ryu Sonoda
+- Email: rs4493@columbia.edu
+- GitHub: (https://github.com/sonodary/)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy analyzing! 📺🧐📊
