@@ -4,7 +4,7 @@
 
 YouTube Comment Emotion Analyzer is a powerful dashboard that allows users to analyze the emotions expressed in comments on YouTube videos. With this tool, users can gain insights into the emotional responses of viewers and identify which emotions are most prevalent in the comments section. The dashboard provides two levels of emotion classification, giving users a comprehensive understanding of the sentiment surrounding a video.
 
-![Dashboard Preview](<img width="1440" alt="Screenshot 2023-09-21 at 19 35 31" src="https://github.com/sonodary/Youtube-sentiment-analysis/assets/95659128/dedc6774-ce03-408f-b893-3532f6b51651">)
+<img width="1440" alt="Screenshot 2023-09-21 at 19 35 31" src="https://github.com/sonodary/Youtube-sentiment-analysis/assets/95659128/dedc6774-ce03-408f-b893-3532f6b51651">
 
 ### Emotion Classification
 
