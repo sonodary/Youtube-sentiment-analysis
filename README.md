@@ -33,32 +33,11 @@ YouTube Comment Emotion Analyzer is a powerful dashboard that allows users to an
 
 - **Language Limitation**: Currently, the tool is applicable only to Japanese comments.
 
-## Installation
-
-To run the YouTube Comment Emotion Analyzer locally, follow these steps:
-
-1. Clone this repository to your local machine:
-   ```
-   git clone https://github.com/your-username/youtube-comment-emotion-analyzer.git
-   ```
-
-2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Run the application:
-   ```
-   python app.py
-   ```
-
-4. Access the dashboard by opening a web browser and navigating to `http://localhost:5000`.
-
 ## Usage
 
 1. Enter the YouTube video URL for the video you want to analyze.
 
-2. Click the "Analyze" button to initiate the analysis process.
+2. Click the red button next to the search bar to initiate the analysis process.
 
 3. Explore the dashboard to gain insights into the emotions expressed in the comments section.
 
